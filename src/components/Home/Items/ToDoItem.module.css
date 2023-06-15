@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.active {
+    text-decoration: line-through;
+}
+
+.remove {
+position: absolute;
+top: 12px;
+right: 10px;
+}
